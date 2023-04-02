@@ -41,4 +41,11 @@ php artisan migrate --seed
 ```
 
 
+<hr>
+
+# Postman API Documentation
+
+https://documenter.getpostman.com/view/12214038/2s93RUvYBV
+
+
 
