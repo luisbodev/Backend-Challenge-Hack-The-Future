@@ -40,6 +40,11 @@ DB_PASSWORD=
 php artisan migrate --seed
 ```
 
+5. Run app
+```bash
+php artisan serve
+```
+
 
 <hr>
 
