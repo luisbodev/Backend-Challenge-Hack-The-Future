@@ -24,8 +24,9 @@ class CarbonFootprintDataSeeder extends Seeder
                 'frequency' => 1,
                 'material_id' => 1,
                 'type_id' => 1,
-                'location_id' => 1,
+                'location_id' => null,
                 'segment_id' => 1,
+                'category_id' => 1, 
             ]);
 
             // 2.Pérdidas de gases refrigerantes mensuales: 3 galones
@@ -37,6 +38,7 @@ class CarbonFootprintDataSeeder extends Seeder
                 'type_id' => 2,
                 'location_id' => null,
                 'segment_id' => 1,
+                'category_id' => 5,
             ]);
 
             // 3.Consumo de energía eléctrica en oficinas administrativas: 300 Kw
@@ -48,6 +50,7 @@ class CarbonFootprintDataSeeder extends Seeder
                 'type_id' => 1,
                 'location_id' => 1,
                 'segment_id' => 2,
+                'category_id' => 1,
             ]);
 
             // 4.Uso mensual de combustible para vehículos de distribución: 1250 galones
@@ -59,6 +62,7 @@ class CarbonFootprintDataSeeder extends Seeder
                 'type_id' => 1,
                 'location_id' => null,
                 'segment_id' => 1,
+                'category_id' => 4, 
             ]);
 
             // 5.Uso mensual de combustible para transporte tercero de materia prima: 500 galones
@@ -70,6 +74,7 @@ class CarbonFootprintDataSeeder extends Seeder
                 'type_id' => 1,
                 'location_id' => null,
                 'segment_id' => 3,
+                'category_id' => 2,
             ]);
             
             // 6.Viajes del CEO y COO de la empresa: 3 viajes mensuales
@@ -81,6 +86,7 @@ class CarbonFootprintDataSeeder extends Seeder
                 'type_id' => 3,
                 'location_id' => null,
                 'segment_id' => 3,
+                'category_id' => 2,
             ]);
             
             // 7.Uso mensual de aceite para mantenimiento de máquinas operadoras: 900 galones
@@ -92,6 +98,7 @@ class CarbonFootprintDataSeeder extends Seeder
                 'type_id' => 1,
                 'location_id' => null,
                 'segment_id' => 1,
+                'category_id' => 5,
             ]);
             
             // 8.Consumo de energía eléctrica en planta de envasado: 900 Kw
@@ -103,6 +110,7 @@ class CarbonFootprintDataSeeder extends Seeder
                 'type_id' => 1,
                 'location_id' => 2,
                 'segment_id' => 2,
+                'category_id' => 5, 
             ]);
             
             // 9.Consumo diario de aceite para mantenimiento de flota de distribución: 1 galón
@@ -114,6 +122,7 @@ class CarbonFootprintDataSeeder extends Seeder
                 'type_id' => 1,
                 'location_id' => null,
                 'segment_id' => 1,
+                'category_id' => 4, 
             ]);
             
             // 10.Uso promedio diario de papel bond para impresión de documentos: 300 hojas
@@ -125,6 +134,7 @@ class CarbonFootprintDataSeeder extends Seeder
                 'type_id' => 1,
                 'location_id' => null,
                 'segment_id' => 1,
+                'category_id' => 1, 
             ]);
            
             // 11.Viajes del equipo de ventas de la empresa: 2 viajes mensuales
@@ -134,8 +144,9 @@ class CarbonFootprintDataSeeder extends Seeder
                 'frequency' => 1,
                 'material_id' => null,
                 'type_id' => 3,
-                'location_id' => 2,
+                'location_id' => null,
                 'segment_id' => 3,
+                'category_id' => 3, 
             ]);
         }
     }

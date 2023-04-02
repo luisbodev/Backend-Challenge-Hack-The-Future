@@ -22,12 +22,14 @@ class CreateCarbonFootprintDataTable extends Migration
             $table->foreignId('type_id');
             $table->foreignId('segment_id');
             $table->foreignId('location_id')->nullable();
+            $table->foreignId('category_id');
             $table->timestamps();
 
             $table->foreign('material_id')->references('id')->on('materials');
             $table->foreign('type_id')->references('id')->on('types');
             $table->foreign('segment_id')->references('id')->on('segments');
             $table->foreign('location_id')->references('id')->on('locations');
+            $table->foreign('category_id')->references('id')->on('categories');
         });
     }
 
